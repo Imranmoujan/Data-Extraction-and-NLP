@@ -19,7 +19,13 @@ This project performs text analysis and nlp on web content, extracting key metri
 
 ## Usage
 
-1. Download NLTK datasets:
+1. Install the required packages using `requirements.txt`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Download NLTK datasets:
 
     ```python
     import nltk
@@ -27,15 +33,21 @@ This project performs text analysis and nlp on web content, extracting key metri
     nltk.download('stopwords')
     ```
 
-2. Run the main script:
+3. Run the main script:
 
     ```bash
     python main.py
     ```
 
-3. The script will scrape the specified web page, perform text analysis, and output the results.
+4. The script will scrape the specified web page, perform text analysis, and output the results.
 
 ## Project Structure
 
 - `main.py`: The main script containing all functions for web scraping, text processing, and analysis.
-- `txtfiles/`: Directory where scraped text files are saved.
+- `txtfiles`: Directory where scraped text files are saved.
+  
+## Project Structure
+
+- `main.py`: The main script containing all functions for web scraping, text processing, and analysis.
+- `txtfiles`: Directory where scraped text files are saved.
+- `requirements.txt`: Lists all the dependencies required to run the project.
