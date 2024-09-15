@@ -16,6 +16,7 @@ This project performs text analysis and NLP on web content, extracting key metri
 - requests
 - nltk
 - BeautifulSoup4
+- openpyxl
 
 ## Usage
 
@@ -33,16 +34,24 @@ This project performs text analysis and NLP on web content, extracting key metri
     nltk.download('stopwords')
     ```
 
-3. Run the main script:
+3. Prepare the input data:
+   
+   - Download the `Input Data Structure.xlsx` file place it in the same folder as `main.py`. This file should contain all the web links to be scraped.
+
+4. Run the main script:
 
     ```bash
     python main.py
     ```
 
-4. The script will scrape the specified web page, perform text analysis, and output the results.
+5. The script will scrape the specified web pages, perform text analysis, and output the results.
+
+6. The results will be saved in `Output Data Structure.xlsx`, which contains the analyzed data in a structured format.
 
 ## Project Structure
 
 - `main.py`: The main script containing all functions for web scraping, text processing, and analysis.
+- `Input Data Structure.xlsx`: Excel file containing all the links to be processed.
+- `Output Data Structure.xlsx`: Excel file where the resulting data frame with analysis results is saved.
 - `txtfiles/`: Directory where scraped text files are saved.
 - `requirements.txt`: Lists all the dependencies required to run the project.
