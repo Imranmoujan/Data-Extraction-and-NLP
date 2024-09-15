@@ -1,6 +1,6 @@
 # Data Extraction and NLP
 
-This project performs text analysis and nlp on web content, extracting key metrics such as average word length, average sentence length, syllable counts, and readability scores. It uses Python libraries like BeautifulSoup for web scraping and NLTK for text processing.
+This project performs text analysis and NLP on web content, extracting key metrics such as average word length, average sentence length, syllable counts, and readability scores. It uses Python libraries like BeautifulSoup for web scraping and NLTK for text processing.
 
 ## Features
 
@@ -44,10 +44,5 @@ This project performs text analysis and nlp on web content, extracting key metri
 ## Project Structure
 
 - `main.py`: The main script containing all functions for web scraping, text processing, and analysis.
-- `txtfiles`: Directory where scraped text files are saved.
-  
-## Project Structure
-
-- `main.py`: The main script containing all functions for web scraping, text processing, and analysis.
-- `txtfiles`: Directory where scraped text files are saved.
+- `txtfiles/`: Directory where scraped text files are saved.
 - `requirements.txt`: Lists all the dependencies required to run the project.
